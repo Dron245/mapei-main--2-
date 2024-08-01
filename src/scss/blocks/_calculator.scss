@@ -1,4 +1,7 @@
 .calculator {
+	& >*{
+		// outline: 1px solid red;
+	}
 	padding: 0 10px 96px 150px;
 	display: flex;
 	flex-direction: column;
@@ -87,6 +90,14 @@
 			&:hover {
 				font-weight: 600;
 			}
+		}
+	}
+	& .calculator__wrapper__block__title__buttons {
+		display: flex;
+		gap: 15px;
+		button {
+			justify-content: center;
+			flex: 0 0 35px;
 		}
 	}
 
@@ -208,6 +219,7 @@
 		display: flex;
 		flex-direction: column;
 		gap: 20px;
+		width: 100%;
 	}
 
 	&__item {

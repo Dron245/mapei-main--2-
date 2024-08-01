@@ -5,7 +5,9 @@
 	align-items: center;
 	margin-bottom: 30px;
 	row-gap: 30px;
-
+	@media (max-width: 820px){
+		margin-bottom: 100px;
+	}
 	&__main {
 		background: url('../img/background_inputs/children/children-parket.jpg') no-repeat;
 		width: 100%;

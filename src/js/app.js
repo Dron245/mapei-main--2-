@@ -65,11 +65,11 @@ try {
 } catch (error) {
 	console.log(error);
 }
-const links = document.querySelectorAll('.main__wrapper > a')
-links.forEach(element => {
-	element.addEventListener('click', (event) => {
+// const links = document.querySelectorAll('.main__wrapper > a')
+// links.forEach(element => {
+// 	element.addEventListener('click', (event) => {
  
 //   event.preventDefault()
-});
+// });
 
-})
+// })
