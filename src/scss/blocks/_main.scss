@@ -1,4 +1,7 @@
 .main {
+	& * {
+		outline: 1px solid red;
+	}
 	padding-top: 50px;
 	// height: 1000px;
 	// width: 1273px;
@@ -6,10 +9,13 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+
+	// display: none;
 	// outline: 1px solid red;
 	@media (max-width: 701px) {
 		align-items: center;
 	}
+
 	&__wrapper {
 		position: relative;
 		// outline: 1px solid rgb(0, 255, 0);
@@ -18,6 +24,7 @@
 			width: 1273px;
 			height: 942px;
 		}
+
 		@media (min-width: 1280px) {
 			width: 848px;
 			height: 627px;
@@ -35,47 +42,41 @@
 
 		@media (min-width: 480px) {
 			@media (min-height: 800px) {
-					width: 471px;
-					height: 349px;
+				width: 471px;
+				height: 349px;
 			}
 		}
 
 		@media (min-width: 480px) {
-			width: 700px;
-			height: 518px;
+			// width: 700px;
+			// height: 518px;
 		}
+
 		@media (min-width: 414px) {
 			@media (min-height: 736px) {
 				width: 406px;
 				height: 300px;
 			}
 		}
+
 		@media (min-width: 375px) {
 			@media (min-height: 667px) {
 				width: 367px;
 				height: 272px;
 			}
 		}
+
 		@media (min-width: 320px) {
 			@media (min-height: 480px) {
 				width: 330px;
 				height: 244px;
 			}
 		}
-		// @media (min-width: 701px) {
-		// 	// .llBofw {
-		// 	width: 700px;
-		// 	height: 518px;
-		// }
-		// @media (max-width: 701px) {
-		// 	width: 360px;
-		// 	aspect-ratio: 700/518;
-		// 	position: relative;
-		// }
+
 	}
+
 	&__img {
 		display: block;
-		// height: 600px;
 		background: url("../img/all_room.png") center center / 100% no-repeat;
 		position: relative;
 		width: 100%;
@@ -86,11 +87,9 @@
 	&__balcon {
 		background: url("../img/balcony.png") center center / 100% no-repeat;
 		position: absolute;
-		//  height: 700px;
-		//  width: 80px;
+
 		filter: brightness(50%);
-		// top: 240px;
-		// left: 95px;
+
 
 		.main__balcon__block {
 			position: absolute;
@@ -149,6 +148,7 @@
 			top: 91px;
 			left: 52px;
 		}
+
 		@media (min-width: 480px) {
 			@media (min-height: 800px) {
 				width: 46px;
@@ -157,12 +157,14 @@
 				left: 35px;
 			}
 		}
+
 		@media (min-width: 480px) {
-			width: 68px;
-			height: 401px;
-			top: 91px;
-			left: 52px;
+			// width: 68px;
+			// height: 401px;
+			// top: 91px;
+			// left: 52px;
 		}
+
 		@media (min-width: 414px) {
 			@media (min-height: 736px) {
 				width: 40px;
@@ -171,6 +173,7 @@
 				left: 30px;
 			}
 		}
+
 		@media (min-width: 375px) {
 			@media (min-height: 667px) {
 				width: 36px;
@@ -179,6 +182,7 @@
 				left: 27px;
 			}
 		}
+
 		@media (min-width: 320px) {
 			@media (min-height: 480px) {
 				width: 32px;
@@ -189,18 +193,16 @@
 		}
 
 		@media (max-width: 480px) {
-	//		opacity: 0;
+			//		opacity: 0;
 		}
 	}
 
 	&__living {
 		background: url("../img/living_room.png") center center / 100% no-repeat;
 		position: absolute;
-		// height: 700px;
-		// width: 500px;
+
 		filter: brightness(50%);
-		// bottom: -98px;
-		// left: 160px;
+
 
 		.main__living__block {
 			position: absolute;
@@ -269,12 +271,14 @@
 				left: 59px;
 			}
 		}
+
 		@media (min-width: 480px) {
-			width: 230px;
-			height: 259px;
-			top: 215px;
-			left: 88px;
+			// width: 230px;
+			// height: 259px;
+			// top: 215px;
+			// left: 88px;
 		}
+
 		@media (min-width: 414px) {
 			@media (min-height: 736px) {
 				width: 134px;
@@ -283,6 +287,7 @@
 				left: 51px;
 			}
 		}
+
 		@media (min-width: 375px) {
 			@media (min-height: 667px) {
 				width: 121px;
@@ -291,6 +296,7 @@
 				left: 46px;
 			}
 		}
+
 		@media (min-width: 320px) {
 			@media (min-height: 480px) {
 				width: 109px;
@@ -301,7 +307,7 @@
 		}
 
 		@media (max-width: 480px) {
-	//		opacity: 0;
+			//		opacity: 0;
 		}
 	}
 
@@ -372,18 +378,20 @@
 
 		@media (min-width: 480px) {
 			@media (min-height: 800px) {
-					width: 48px;
-					height: 206px;
-					top: 82px;
-					left: 415px;
+				width: 48px;
+				height: 206px;
+				top: 82px;
+				left: 415px;
 			}
 		}
+
 		@media (min-width: 480px) {
-			width: 70px;
-			height: 342px;
-			top: 102px;
-			left: 617px;
+			// width: 70px;
+			// height: 342px;
+			// top: 102px;
+			// left: 617px;
 		}
+
 		@media (min-width: 414px) {
 			@media (min-height: 736px) {
 				width: 41px;
@@ -392,6 +400,7 @@
 				left: 358px;
 			}
 		}
+
 		@media (min-width: 375px) {
 			@media (min-height: 667px) {
 				width: 37px;
@@ -400,6 +409,7 @@
 				left: 323px;
 			}
 		}
+
 		@media (min-width: 320px) {
 			@media (min-height: 480px) {
 				width: 33px;
@@ -410,7 +420,7 @@
 		}
 
 		@media (max-width: 480px) {
-	//		opacity: 0;
+			//		opacity: 0;
 		}
 	}
 
@@ -477,18 +487,20 @@
 
 		@media (min-width: 480px) {
 			@media (min-height: 800px) {
-					width: 113px;
-					height: 98px;
-					top: 215px;
-					left: 211px;
+				width: 113px;
+				height: 98px;
+				top: 215px;
+				left: 211px;
 			}
 		}
+
 		@media (min-width: 480px) {
-			width: 168px;
-			height: 146px;
-			top: 318px;
-			left: 315px;
+			// width: 168px;
+			// height: 146px;
+			// top: 318px;
+			// left: 315px;
 		}
+
 		@media (min-width: 414px) {
 			@media (min-height: 736px) {
 				width: 97px;
@@ -497,6 +509,7 @@
 				left: 182px;
 			}
 		}
+
 		@media (min-width: 375px) {
 			@media (min-height: 667px) {
 				width: 88px;
@@ -505,6 +518,7 @@
 				left: 165px;
 			}
 		}
+
 		@media (min-width: 320px) {
 			@media (min-height: 480px) {
 				width: 79px;
@@ -515,14 +529,14 @@
 		}
 
 		@media (max-width: 480px) {
-	//		opacity: 0;
+			//		opacity: 0;
 		}
 	}
 
 	&__bedroom {
 		background: url("../img/bedroom.png") center center / 100% no-repeat;
 		position: absolute;
-	
+
 		filter: brightness(50%);
 
 		.main__bedroom__block {
@@ -582,18 +596,20 @@
 
 		@media (min-width: 480px) {
 			@media (min-height: 800px) {
-					width: 182px;
-					height: 155px;
-					top: 163px;
-					left: 258px;
+				width: 182px;
+				height: 155px;
+				top: 163px;
+				left: 258px;
 			}
 		}
+
 		@media (min-width: 480px) {
-			width: 270px;
-			height: 227px;
-			top: 242px;
-			left: 384px;
+			// width: 270px;
+			// height: 227px;
+			// top: 242px;
+			// left: 384px;
 		}
+
 		@media (min-width: 414px) {
 			@media (min-height: 736px) {
 				width: 156px;
@@ -602,6 +618,7 @@
 				left: 223px;
 			}
 		}
+
 		@media (min-width: 375px) {
 			@media (min-height: 667px) {
 				width: 141px;
@@ -610,6 +627,7 @@
 				left: 202px;
 			}
 		}
+
 		@media (min-width: 320px) {
 			@media (min-height: 480px) {
 				width: 127px;
@@ -620,7 +638,7 @@
 		}
 
 		@media (max-width: 480px) {
-	//		opacity: 0;
+			//		opacity: 0;
 		}
 	}
 
@@ -693,12 +711,14 @@
 				left: 60px;
 			}
 		}
+
 		@media (min-width: 480px) {
-			width: 236px;
-			height: 204px;
-			top: 36px;
-			left: 89px;
+			// width: 236px;
+			// height: 204px;
+			// top: 36px;
+			// left: 89px;
 		}
+
 		@media (min-width: 414px) {
 			@media (min-height: 736px) {
 				width: 137px;
@@ -716,6 +736,7 @@
 				left: 46px;
 			}
 		}
+
 		@media (min-width: 320px) {
 			@media (min-height: 480px) {
 				width: 110px;
@@ -726,7 +747,7 @@
 		}
 
 		@media (max-width: 480px) {
-	//		opacity: 0;
+			//		opacity: 0;
 		}
 	}
 
@@ -798,12 +819,14 @@
 				left: 211px;
 			}
 		}
+
 		@media (min-width: 480px) {
-			width: 76px;
-			height: 269px;
-			top: 51px;
-			left: 313px;
+			// width: 76px;
+			// height: 269px;
+			// top: 51px;
+			// left: 313px;
 		}
+
 		@media (min-width: 414px) {
 			@media (min-height: 736px) {
 				width: 44px;
@@ -812,6 +835,7 @@
 				left: 182px;
 			}
 		}
+
 		@media (min-width: 375px) {
 			@media (min-height: 667px) {
 				width: 40px;
@@ -820,6 +844,7 @@
 				left: 164px;
 			}
 		}
+
 		@media (min-width: 320px) {
 			@media (min-height: 480px) {
 				width: 36px;
@@ -830,7 +855,7 @@
 		}
 
 		@media (max-width: 480px) {
-	//		opacity: 0;
+			//		opacity: 0;
 		}
 	}
 
@@ -904,11 +929,12 @@
 		}
 
 		@media (min-width: 480px) {
-			width: 274px;
-			height: 159px;
-			top: 103px;
-			left: 380px;
+			// width: 274px;
+			// height: 159px;
+			// top: 103px;
+			// left: 380px;
 		}
+
 		@media (min-width: 414px) {
 			@media (min-height: 736px) {
 				width: 159px;
@@ -917,6 +943,7 @@
 				left: 221px;
 			}
 		}
+
 		@media (min-width: 375px) {
 			@media (min-height: 667px) {
 				width: 143px;
@@ -925,6 +952,7 @@
 				left: 200px;
 			}
 		}
+
 		@media (min-width: 320px) {
 			@media (min-height: 480px) {
 				width: 129px;
@@ -949,9 +977,11 @@
 		padding: 16px 24px;
 		text-align: center;
 		cursor: pointer;
+
 		@media (min-width: 1920px) {
 			margin-top: 200px;
 		}
+
 		@media (min-width: 1024px) {
 			// margin-right: 500px;
 			// margin-top: -50px;

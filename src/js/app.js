@@ -68,9 +68,8 @@ try {
 const links = document.querySelectorAll('.main__wrapper > a')
 links.forEach(element => {
 	element.addEventListener('click', (event) => {
-  // Отменяем действие по умолчанию.
-  // Перехода по ссылке не будет
-  event.preventDefault()
+ 
+//   event.preventDefault()
 });
 
 })
