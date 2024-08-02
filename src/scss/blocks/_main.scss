@@ -84,9 +84,9 @@
 	.tooltip[class] {
 		// display: block;
 
+		padding: 5px;
 		@media (max-width: 768px) {
 			width: 150px;
-			padding: 5px;
 			height: 100px;
 			h2 {
 				font-size: 16px;
@@ -238,6 +238,7 @@
 			z-index: 3;
 			@media (max-width: 768px) {
 				right: -160px;
+				top: 30px;
 			}
 		}
 

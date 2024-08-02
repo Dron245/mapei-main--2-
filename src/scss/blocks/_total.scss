@@ -6,6 +6,8 @@
 		margin-bottom: 100px;
 	}
 	&__wrapper {
+		max-width: 1500px;
+
 		display: flex;
 		gap: 10px;
 		padding: 0 10px;
@@ -70,6 +72,7 @@
 	.stores {
 		margin-top: 16px;
 		margin-bottom: 16px;
+		max-width: 1500px;
 
 		h4 {
 			margin-bottom: 16px;
@@ -233,6 +236,8 @@
 		}
 
 		&__video {
+			max-width: 1500px;
+
 			width: 100%;
 			padding-right: 16px;
 			// max-width: 812px;
