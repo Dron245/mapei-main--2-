@@ -157,6 +157,9 @@
 			background-color: #a8a8a8;
 			padding: 6px 0;
 			width: fit-content;
+			@media (max-width: 460px){
+				  font-size: 14px;
+			}
 		}
 
 		div {
@@ -164,6 +167,9 @@
 			justify-content: center;
 			color: #0070BA;
 			font-size: 21px;
+			@media (max-width: 460px){
+				  font-size: 18px;
+			}
 		}
 
 
@@ -229,7 +235,7 @@
 		&__articles {
 			display: flex;
 			flex-wrap: wrap;
-
+			gap: 10px;
 			&__title {
 				width: 100%;
 			}

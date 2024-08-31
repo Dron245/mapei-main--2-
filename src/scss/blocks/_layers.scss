@@ -142,10 +142,11 @@
 
 		&__number {
 			position: absolute;
-			top: -0.5rem;
-			left: -1rem;
-			font-size: 78px;
-			transform: translate(-20%, -40%);
+			// top: -0.5rem;
+			left: 0;
+			// font-size: 78px;
+			font-size: 50px;
+			// transform: translate(-20%, -40%);
 			z-index: 2;
 			color: #0070ba;
 			font-weight: 700;
