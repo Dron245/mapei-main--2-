@@ -5,7 +5,7 @@
 .vscode
 # testing
 /coverage
-
+*.rar
 # production
 /build
 /dist

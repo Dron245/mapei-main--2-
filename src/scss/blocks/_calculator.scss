@@ -72,6 +72,9 @@
 		&__current {
 			line-height: 36px;
 			padding-left: 16px;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
 		}
 
 		&__body {
@@ -259,6 +262,9 @@
 			font-size: 20px;
 			font-weight: 600;
 			width: 220px;
+			@media (max-width: 460px){
+				//   width: initial;
+			}
 		}
 	}
 
@@ -278,7 +284,9 @@
 		gap: 55px;
 		font-size: 21px;
 		font-weight: 600;
-		;
+		@media (max-width:450px){
+			  font-size: 18px;
+		}
 	}
 
 	&__name {
@@ -287,7 +295,7 @@
 
 		&+.slider__wrapper {
 			@media (max-width: 820px) {
-				padding-left: 20px;
+				// padding-left: 20px;
 			}
 		}
 	}
@@ -357,7 +365,7 @@
 
 .calculator__wrapper__block__row {
 	display: flex;
-	align-items: center;
+	// align-items: center;
 	flex-direction: column;
 	justify-content: space-between;
 	gap: 24px;
